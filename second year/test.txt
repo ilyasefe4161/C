@@ -1,0 +1,10 @@
+int pop(stack *stk){
+	if(stk->top==-1){
+		printf("\nstack is empty.");
+		return;
+	}
+		//	int x= stk->data[stk->data];
+//	stk->top--;
+//	return x;
+	return stk->data[stk->top--];
+}}
